@@ -1,5 +1,5 @@
 # Passport
-Our website if about travel destinations the best time to go and ......
+Our website is about travel destinations the best time to go and ......
 
 # UX
 userstories (6)
