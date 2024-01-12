@@ -1,73 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Passport Travels</title>
-    <img src="imagesak13/Passport AK13.png" alt="Passport" width="200" height="200">
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon/icons8-favicon-16.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
     <main>
-        <br />
+        <header>
+            <img src="images/Passport.png" alt="Passport" width="90%">
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars "></i></label>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#" class="active"> Home </a></li>
+                    <li><a href="#aboutus.html">About Us</a></li>
+                    <li><a href="summerdestination.html">Summer Destination</a></li>
+                    <li><a href="gallery.html"> Gallery </a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
         <hr>
-    
-        <section class="tba-guide-hero" style="background:url(imagesak13/1029099-cape-town.jpg) no-repeat; background-size: cover;">
-            <div id="cover-text">
-                <h2>Welcome Travellers</h2>
-                <h3>Travel blog featuring travel tips, guides, videos and many more...</h3>
+        <section>
+            <div class="hero-container">
+                <img class="hero-image" src="images\hero2.jpg" alt="Hero Image">
+                <div class="hero-label">
+                    <div class="hero-text">
+                        <h2>South Africa</h2>
+                        <h3>Cape Town</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="about-travel">
+            <h2>What to Expect<i class="fa-brands fa-buromobelexperte"></i></h2>
+            <hr>
+            <div class="flex-container">
+                <div>
+                    <p><strong>Language:</strong> South Africa has got eleven official languages, with English being the
+                        most commonly spoken in and around Cape Town particularly in touristy areas. Afrikaans and Xhosa
+                        are
+                        also frequently heard on the streets.</p>
+                    <hr>
+                </div>
+                <div>
+                    <p><strong>Currency</strong>The official currency in South Africa is the Rand.</p>
+                    <p><strong>Safety:</strong> Cape Town is one of the safer cities in South Africa, but there are
+                        still
+                        some petty crimes. Be sure to lock up your valuables and keep important belongings on your
+                        person
+                        (Be aware of PickPockets).</p>
+                    <hr>
+                </div>
+                <div>
+                    <p>In terms of Travel the besy and cost-effective way to travel is <strong>Uber</strong> and
+                        <strong>My
+                            CitiBus</strong>.
+                    </p>
+                </div>
             </div>
         </section>
+        <div id="responsive-image">
+            <img src="images\1 of 4.jpg" alt="City">
+            <img src="images\1 of 3.jpg" alt="A Hotel in SA">
+            <img src="images\ClearwaterBeach-59cd9d74685fbe0011577afd.jpg" alt="A beach">
+        </div>
+        
 
-       <div class="tba-guide-hero" style="background: url('https: //www.theblondeabroad.com/wp-conten
-       t/uploads/2018/07/hero.jpg') no-repeat; background-size: cover;">
-       <div class="tba-wrapper">
-       <div class="tba-header-intro">
-       <div class="hero-label">
-       <h2>South Africa</h2>
-       <h1>Cape Town</h1>
-       </div>
-       <p>
-       "On my first trip to the continent of Africa, I was lucky enough to spend about a week
-       exploring the wonders of Cape Town. I ended up moving to Cape Town the following year,
-       and called it my home for over three years! The coastal city has stunning natural
-       landscapes, delicious and diverse cuisines, and so many activities for all ages. It's
-       also a cosmopolitan city with a wealth of historical sites, cafe culture, and lively
-       nightlife. Check out my Cape Town travel tips, including favorite places to eat, stay,
-       and see!" == $0
-       </p>
-       </div>
-       </div>
-       </div>
-       <div id="to
+        <section id="what-to-do">
+            <h2>Where To Stay<i class="fa-sharp fa-solid fa-location-pin"></i></h2>
+            <hr>
+            <div class="flex-container">
+                <div>
+                    <h3>Pod Camps Bay</h3>
+                    <p>POD Camps Bay stands as a remarkable boutique hotel, strategically positioned right on the shores
+                        of
+                        Camps Bay beach! Within walking distance to a variety of restaurants and bars, it boasts an
+                        exceptional breakfast.</p>
+                    <img src="images\Pod.jpg" alt="Pod hotel">
+                    <div class="col">
+                        <i class="fa-solid fa-map-pin"></i>
+                        <span>Pod Camps Bay</span>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-bed"></i>
+                        <span>Apartments/Hotels</span>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <span>£££</span>
+                    </div>
+                    <hr>
+                </div>
+                <div>
+                    <h3>MannaBay</h3>
+                    <p>MannaBay, an elegant hotel adorned with diverse decor, features a captivating swimming pool, a
+                        cozy
+                        fire pit, and breathtaking views of Cape Town. The generously sized rooms come complete with
+                        spacious bathrooms, walk-in showers, and under-floor heating—an ideal recipe for a heavenly
+                        stay!.
+                    </p>
+                    <img src="images\MannaBay.jpg" alt="Mannabay hotel">
+                    <div class="col">
+                        <i class="fa-solid fa-map-pin"></i>
+                        <span>MannaBay</span>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-bed"></i>
+                        <span>Hotel</span>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <span>£££</span>
+                    </div>
+                    <hr>
+                </div>
+                <div>
+                    <h3>VRBO Rentals</h3>
+                    <p>Cape Town offers an abundance of VRBO rentals, presenting beautiful properties at budget-friendly
+                        rates! If you prioritize privacy or wish to delve into more local neighborhoods of the city,
+                        consider renting a charming apartment or villa near the beach.</p>
+                    <img src="images\VRBO .jpg" alt="VRBO hotel">
+                    <div class="col">
+                        <i class="fa-solid fa-map-pin"></i>
+                        <span>VRBO Hotel</span>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-bed"></i>
+                        <span>Rentals</span>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <span>££££</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="responsive-image">
+            <img src="images\1 of 5.jpg" alt="safria">
+                <img src="images\1 of 1.jpg" alt="restaurant">
+                <img src="images\1 of 2.jpg" alt="restaurant">
+        </div>
 
-
-
+        <section id="where-to-go">
+            <h2>Where To Eat!<i class="fa-sharp fa-solid fa-cookie-bite"></i></h2>
+            <hr>
+            <div class="flex-container0">
+                <div>
+                    <h3>BreakFast & Brunch</h3>
+                    <h5>Loading Bay</h5>
+                    <p>Loading Bay is a lovely spot for a quick morning meal. Their
+                    menu features health-conscious options like granola and spiced buckwheat pancakes.</p>
+                    <img src="images\loadingbay.jpg" alt="restaurant">
+                </div>
+                <div>
+                    <h5>Pot Luck</h5>
+                    <p>Pot Luck Club is known as the trendiest spot in Cape Town. Its success lies in
+                        innovative cuisine served within a relaxed yet edgy
+                        setting.</p>
+                    <img src="images\potluck-club.jpg" alt="restaurant">
+                    <hr>
+                </div>
+                <div>
+                    <h3>Lunch & Dinner</h3>
+                    <h5>The Stack</h5>
+                    <p>Recognized as one of the top restaurants in Cape Town,The Stack offers an
+                        incredible
+                        atmosphere, with charming decor and a delightful bar area.</p>
+                    <img src="images\TheStack.jpg" alt="restaurant">
+                </div>
+                <div>
+                    <h5>Bombay Bicycle</h5>
+                    <p>If you're seeking a unique dining adventure, reserve a table at Bombay Bicycle
+                        Club. With its bohemian ambiance, delectable menu, and colorful history, it stands out as one of
+                        Cape
+                        Town's finest dinner destinations.</p>
+                    <img src="images\Bombay Bicycle.jpg" alt="restaurant">
+                    <hr>
+                </div>
+                <div>
+                    <h3>Clubs & Bars</h3>
+                    <h5>Sercret Gin</h5>
+                    <p>Sercret Gin Bar is adorned with fairy lights and eclectic decor, it's one of my
+                        preferred spots for enjoying drinks with friends.</p>
+                    <img src="images\secret gin.jpg" alt="restaurant">
+                </div>
+                <div>
+                    <h5>The Village Idiot</h5>
+                    <p> For a local watering hole experience, visit The Village Idiot, a vintage bar
+                        and |restaurant nestled in the heart of Cape Town's CBD.</p>
+                    <img src="images\village-idiot-capetown-new.jpg" alt="restaurant">
+                </div>
+        </section>
+        <hr>
+        <h3 id="to-do">🔥Things To Do In Cape Town🔥 </h3>
+        <section>
+            <iframe src="https://www.youtube.com/embed/sQPXvtJQ9p4"
+                title="Things To Do In CAPE TOWN, SOUTH AFRICA | UNILAD Adventure" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
 
 
     </main>
+    <footer>
+        <hr color="#d06a19;">
+        <p>&copy; 2024 Passport Travels. All rights reserved.</p>
+        
+        <ul id="social-networks">
+            <li><a href="https://www.Facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i
+                        class="fa-brands fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i
+                        class="fa-brands fa-youtube-square"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+        </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </footer>
 </body>
+
 </html>
