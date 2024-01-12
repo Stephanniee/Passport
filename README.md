@@ -80,5 +80,6 @@ Navigate to Pages Section:
 This sequence of steps outlines our successful deployment of the project on GitHub.
 
 # Credits
-he links for section Travel tips were copied from Google search. The photos used in this site were obtained from Unsplash and Google images. We received inspiration for this project from Stephanniee. The Top destinations ranking was based on Travel website research.
-12:20
+The links for section Travel tips were copied from Google search. The photos used in this site were obtained from Unsplash and Google images. We received inspiration for this project from travel blogs. 
+The Top destinations ranking was based on Travel website research.
+
