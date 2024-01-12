@@ -104,9 +104,9 @@ main {
 
 #hero{
     height: 600px;
-    width: 100px;
-    background: url(imagesak13/alex-moliski-Rg2GvIRMdNQ-unsplash.jpg) no-repeat center center/cover;
-    
+    width: 320px;
+    background: url(images/hero.jpg) no-repeat center center/cover;
+    position: relative;
 }
 
 /*Footer*/
