@@ -116,6 +116,24 @@ main {
 
 
 /*styling of the first div section*/
+grid-container0 {
+    height: 250px;
+    width: 320px;
+    grid-template-rows: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    text-align:center;
+    } 
+
+    #best-destination > div,
+    #best-destination0 > div {
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    #best p {padding:0 20px;}
+    #best hr { border-top: 1px solid #3a3a3a;
+    margin:5px 0}
     
 /*Footer*/
 #social-networks {
