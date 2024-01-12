@@ -48,6 +48,10 @@ We employed two testing tools to ensure the error-free nature of our code. we ut
 
 During the validation process, errors were detected, signifying areas for improvement. Recognizing and addressing these syntax errors is crucial for ongoing development, ensuring our code remains free of potential issues. Moving forward, we are committed to addressing identified problems and to uphold code quality.
 
+# Responsive Test
+![image](https://github.com/Stephanniee/Passport/assets/140328398/382c8ab5-a554-4cf9-91ae-5f0a5159f212)
+
+
 # Issues Fixed
 1. HTML (index.html):
 Fixed the broken navigation link for "About Us."
