@@ -38,9 +38,6 @@ h1 {
     font-size: 15px;
     margin-bottom: 10px;
 }
-h2{
-    font-family: jules_biglight;
-}
 
 /*Styling the nav tabs*/
 
@@ -131,10 +128,44 @@ grid-container0 {
         line-height: 20px;
         margin-bottom: 20px;
     }
-    #best p {padding:0 20px;}
-    #best hr { border-top: 1px solid #3a3a3a;
-    margin:5px 0}
-    
+    #best p {padding:0 20px;
+        font-family: jules_biglight;
+    }
+
+    #best h2 {
+        font-family: jules_biglight;
+        align-content: center;
+    }
+
+
+    #best hr {
+        border-top: 1px solid #3a3a3a;
+        margin: 5px 0;
+        text-decoration: none;
+      }
+      
+      #circle-cover-bg {
+        background: url("images/Best.jpg") no-repeat top center/cover;
+        height: 90vh;
+        width: 90vw;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+        max-width: 400px;
+        max-height: 400px;
+      }
+      
+      #best-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+
+
+
+
 /*Footer*/
 #social-networks {
     text-align: center;
