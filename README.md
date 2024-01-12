@@ -11,7 +11,8 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 # Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+![Screenshot (458)](https://github.com/Mvogtsinga/Passport/assets/152321059/3e8919de-b117-4022-a07d-35ed7000c8b5)
+
 
 # Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -45,6 +46,11 @@ Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
+
+# issues
+ Github functionality ( pull request and merge )
+ Balsamiq functionality (icon)
+ Readme ( uploading the Wireframe on section Features)
 
 # Credits
 Content
