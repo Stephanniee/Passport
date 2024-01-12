@@ -100,6 +100,14 @@ main {
     margin-top: 47px;
 
 }
+/*hero section*/
+
+#hero{
+    height: 600px;
+    width: 100px;
+    background: url(imagesak13/alex-moliski-Rg2GvIRMdNQ-unsplash.jpg) no-repeat center center/cover;
+    
+}
 
 /*Footer*/
 #social-networks {
