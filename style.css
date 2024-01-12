@@ -132,13 +132,12 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        margin-left: 30px;
     }
     header img {
         display: block;
         position: relative;
         box-shadow: none;
-        width: 768px;
+        width: 590px;
         padding-right: 1rem;
     }
     #menu {
