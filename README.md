@@ -20,6 +20,8 @@ Budget-Friendly Alerts:
 5. As a user, I want access to detailed information about popular travel destinations, including local attractions, cultural events, and recommended activities. This enables me to plan my itinerary more effectively.
 6. As a user, I want personalized travel recommendations based on star ratings (such as 5-star exclusive or 1-star budget) to help me discover new and exciting destinations that align with my interests.
 
+# Features
+![Screenshot (458)](https://github.com/Mvogtsinga/Passport/assets/152321059/3e8919de-b117-4022-a07d-35ed7000c8b5)
 
 # Existing Features
 ![Alt text](images/image.png)
@@ -82,6 +84,11 @@ Navigate to Pages Section:
 3.	Ensure that the Source is set to 'Deploy from Branch,' and set the Folder to / (root).
 4.	Save the changes under the Branch section.
 This sequence of steps outlines our successful deployment of the project on GitHub.
+
+# issues
+ Github functionality ( pull request and merge )
+ Balsamiq functionality (icon)
+ Readme ( uploading the Wireframe on section Features)
 
 # Credits
 The links for section Travel tips were copied from Google search. The photos used in this site were obtained from Unsplash and Google images. We received inspiration for this project from travel blogs. 
