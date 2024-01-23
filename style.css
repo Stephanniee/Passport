@@ -1,25 +1,29 @@
-/*Css style for Index.html*/
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
 body {
     min-height: 200vh;
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Rest Styles*/
-* {
-    padding: 0;
-    margin: 0;
-}
-
-/*styling of the header*/
-
+/* Header Styles */
 header {
     z-index: 99;
     align-items: baseline;
     position: relative;
     background-color: white;
     width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header img {
@@ -31,45 +35,46 @@ header nav li a {
     text-decoration: none;
 }
 
-/* text Styling */
+/* Text Styling */
 h1 {
-    font-family: jules_biglight;
+    font-family: 'jules_biglight';
     text-transform: uppercase;
     font-size: 15px;
     margin-bottom: 10px;
+    color: #333;
 }
 
-/*Styling the nav tabs*/
-
+/* Nav Tabs Styles */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    display: flex;
 }
 
 #menu li {
-    margin-bottom: 1rem;
-    font-size: 16px;
-    color: rgb(14, 13, 13);
-    text-decoration: none;
     margin-right: 15px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
     position: relative;
-    font-family: jules_biglight;
+    font-family: 'jules_biglight';
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #ca9999;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #ca9999;
+    border-bottom: 2px solid #ca9999;
+    color: #ca9999;
 }
 
 #menu li:hover a {
     color: #ca9999;
 }
 
-/* Nav toggle */
+/* Nav Toggle Styles */
 header nav {
     position: absolute;
     background-color: white;
@@ -79,12 +84,10 @@ header nav {
     box-shadow: 0 2px #3a3a3a;
     display: none;
     top: 100%;
-
 }
 
 #nav-toggle:checked~nav {
     display: block;
-
 }
 
 #nav-toggle {
@@ -94,229 +97,322 @@ header nav {
 .nav-toggle-label {
     font-size: 2rem;
     margin-left: 20px;
+    cursor: pointer;
 }
 
-/*main content*/
+/* Main Content Styles */
 main {
-    flex: 1 o auto;
-
+    flex: 1 0 auto;
 }
 
-/*hero section*/
-
+/* Hero Section Styles */
 #hero {
     height: 600px;
-    width: 426px;
+    width: 100%;
     background: url(images/sunrise-ocean.jpg) no-repeat center center/cover;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* First Div Section Styles */
+.grid-container0 {
+    height: 250px;
+    width: 80%;
+    grid-template-rows: auto;
+    margin: 20px 0;
+    background-color: #d06a19;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.grid-container0 h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.grid-container0 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#best-destination>div,
+#best-destination0>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#best p {
+    padding: 0 20px;
+    font-family: 'jules_biglight';
+    text-align: center;
+}
+
+#best h2,
+#best h1 {
+    font-family: 'jules_biglight';
+    text-align: center;
+    color: #333;
+}
+
+#best h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#best-destination a,
+#best-destination0 a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #ca9999;
+    padding: 0px 0px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#best-destination a:hover,
+#best-destination0 a:hover {
+    background-color: #ca9999;
+    color: white;
+}
+
+#best hr {
+    border-top: 1px solid #d06a19;
+    margin: 5px 0;
+}
+
+#best-destination ul,
+#best-destination0 ul {
+    text-align: center;
+    color: grey;
+    list-style-type: none;
+}
+
+#circle-cover-bg,
+#circle-cover-bg-0 {
+    background-size: cover;
+    height: 90vh;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#best-image,
+#best-image-0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#circle-cover-bg {
+    background: url("images/Best.jpg") no-repeat top center/cover;
+    height: 90vh;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 
 
-    /*styling of the first div section*/
-    .grid-container0 {
-        height: 250px;
-        width: 320px;
-        grid-template-rows: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        background-color: #d06a19;
-        text-align: center;
+#circle-cover-bg-0 {
+    background: url("images/hero.jpg") no-repeat top center/cover;
+    height: 90vh;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+
+
+
+/* Footer Styles */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #333;
+}
+
+#social-networks i {
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    transition: color 0.3s;
+}
+
+#social-networks i:hover {
+    color: #ca9999;
+}
+
+/* Media Query: Tablets and Larger (768px and up) */
+@media screen and (min-width: 768px) {
+    header nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 2rem;
     }
 
-    .grid-container0 h1 {
-        color: white;
+    header img {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: 700px;
+        height: 500px;
+        padding-right: 1rem;
     }
 
-    .grid-container0 p {
-        color: white;
+    #menu {
+        display: flex;
     }
 
-    #best-destination>div,
-    #best-destination0>div {
-        line-height: 20px;
-        margin-bottom: 20px;
+    #menu>li {
+        padding-left: 1rem;
     }
 
-    #best p {
-        padding: 0 20px;
-        font-family: jules_biglight;
+    header nav li a {
+        margin-left: 35px;
     }
 
-    #best h2 {
-        font-family: jules_biglight;
-        text-align: center;
+    .nav-toggle-label {
+        display: none;
     }
 
-    #best h1 {
-        font-family: jules_biglight;
-        text-align: center;
-        font-size: 20px;
-
+    #best-destination,
+    #best-destination0 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
     #best-destination a,
     #best-destination0 a {
-        display: inline-block;
-        text-align: center;
-    }
-
-    #best hr {
-        border-top: 1px solid #d06a19;
-        ;
-        margin: 5px 0;
-    }
-
-    #best-destination ul {
-        text-align: center;
-        color: grey;
-        list-style-type: none;
-    }
-
-    #best-destination0 ul {
-        text-align: center;
-        color: grey;
-        list-style-type: none;
-    }
-
-
-    #circle-cover-bg {
-        background: url("images/Best.jpg") no-repeat top center/cover;
-        height: 90vh;
-        width: 90vw;
-        margin-bottom: 20px;
-        border-radius: 50%;
-        overflow: hidden;
-        max-width: 400px;
-        max-height: 400px;
-    }
-
-    #best-image-0 {
         display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    #best-destination>div,
+    #best-destination0>div {
+        width: 75%;
+        align-self: center;
+    }
+
+    /* Hero Section Styles */
+    #hero {
+        height: 660px;
+        width: 100%;
+        background: url(images/sunrise-ocean.jpg) no-repeat center center/cover;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    /* First Div Section Styles */
+    .grid-container0 {
+        height: 250px;
+        width: 80%;
+        grid-template-rows: auto;
+        margin: 20px auto;
+        background-color: #d06a19;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    #circle-cover-bg-0 {
-        background: url("images/hero.jpg") no-repeat top center/cover;
-        height: 90vh;
-        width: 90vw;
-        margin-bottom: 20px;
-        border-radius: 50%;
-        overflow: hidden;
-        max-width: 400px;
-        max-height: 400px;
+    .grid-container0 h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
     }
 
-    #best-image {
+    .grid-container0 p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Query: Laptops and Desktops (1200px) */
+@media screen and (min-width: 1000px) {
+    /* Best Section Styles */
+    #best {
         display: flex;
+        flex-direction: column;
+    }
+
+    header img {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: 900px;
+        height: 500px;
+        padding-right: 1rem;
+        margin-left: 300px;
+    }
+
+    header nav li a {
+        margin-left: 80px;
+        font-size: larger;
+    }
+
+    header {
+        justify-content: center;
         align-items: center;
+    }
+
+    #hero {
+        height: 660px;
+        width: 980px;
+        background: url(images/sunrise-ocean.jpg) no-repeat center center/cover;
+        position: relative;
+        margin-left: 20px;
+        display: none;
+    }
+
+    /* First Div Section Styles */
+    .grid-container0 {
+        height: 250px;
+        width: 70%;
+        grid-template-rows: auto;
+        margin: 40px auto;
+        background-color: #d06a19;
+        text-align: center;
         justify-content: center;
     }
 
-
-    /*Footer*/
-    #social-networks {
-        text-align: center;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
+    .grid-container0 h1 {
+        color: white;
+        font-size: 30px;
+        margin-bottom: 10px;
     }
 
-    #social-networks i {
-        font-size: 160%;
-        padding: 5%;
-        color: #3a3a3a;
+    .grid-container0 p {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
+}
 
-    /* Media query: tablets and larger (768px and up)*/
-    @media screen and (min-width: 768px) {
-        header nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width:fit-content;
-            padding-right: 2rem;
-        }
-
-        header img {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: 700px;
-            height: 500px;
-            padding-right: 1rem;
-
-        }
-
-        #menu {
-            display: flex;
-        }
-
-        #menu>li {
-            padding-left: 1rem;
-        }
-
-        header nav li a {
-            margin-left: 35px;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-
-        #best-destination,
-        #best-destination0 {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-
-        #best-destination a,
-        #best-destination0 a {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            align-self: center;
-        }
-
-        #best-destination>div,
-        #best-destination0>div {
-            width: 75%;
-            align-self: center;
-        }
-
-        /*hero section*/ 
-        #hero {
-            height: 660px;
-            width: 726px;
-            background: url(images/sunrise-ocean.jpg) no-repeat center center/cover;
-            position: relative;
-            margin-left: 20px;
-        }
-
-        /*styling of the first div section*/
-        .grid-container0 {
-            height: 250px;
-            width: 620px;
-            grid-template-rows: auto;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            margin-left: 80px;
-            background-color: #d06a19;
-            text-align: center;
-        }
-        .grid-container0 h1 {
-            color: white;
-            font-size: 30px;
-        }
-    
-        .grid-container0 p {
-            color: white;
-            font-size: 20px;
-        }
-    }
 
     /* Media query: laptops and desktops (12oopx)*/  
     @media screen and (min-width: 1000px) {
@@ -383,4 +479,5 @@ main {
         }
 
     }
+
 
